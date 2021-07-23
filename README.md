@@ -14,7 +14,7 @@ employee must have the skill “kitchen” to work in unit “kitchen”.
 7. Only assign an employee to one unit at the same time. E.g. an employee cannot work in the kitchen and at
 the bar in parallel.
 
-The output roster must have the following form:
+## The output roster has the following form:
  The roster is given by set of key value pairs (i.e. a Python dictionary).
  Its key is a tuple that identifies each element of the roster by the day, hour and unit, e.g. (day, hour, unit)
  Its value is a list of employees assigned to that particular element of the roster,
